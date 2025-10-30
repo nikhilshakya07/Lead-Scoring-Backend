@@ -182,7 +182,7 @@ Server will start at http://localhost:5000
 ## 🚀 Deployment
 
 The backend is deployed on Render
-🔗 Live API Base URL: < >
+🔗 Live API Base URL: <https://lead-scoring-backend-ilhm.onrender.com/>
 
 ## Developed By
 
