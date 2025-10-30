@@ -31,6 +31,7 @@ Then:
 
 ## 📁 Folder Structure
 
+```
 lead-scoring-backend/
 │
 ├── src/
@@ -58,7 +59,7 @@ lead-scoring-backend/
 ├── package.json # Dependencies
 ├── server.js # Entry point
 └── README.md # Documentation
-
+```
 
 ---
 
@@ -78,7 +79,7 @@ lead-scoring-backend/
 
 ### 1️⃣ POST `/offer`
 **Body (JSON):**
-```
+```json
 {
   "name": "AI Outreach Automation",
   "value_props": ["24/7 outreach", "6x more meetings"],
@@ -94,7 +95,7 @@ file: attach leads.csv
 
 **📄 CSV Format:**
 
-```
+```csv
 name,role,company,industry,location,linkedin_bio
 Ava Patel,Head of Growth,FlowMetrics,SaaS,India,"Driving B2B growth through automation"
 ```
@@ -158,7 +159,7 @@ Low → 10 pts
 
 **Create a .env file in the root:**
 
-```
+```env
 PORT=5000
 AI_API_KEY=your_openrouter_api_key
 AI_MODEL=openai/gpt-oss-20b:free
