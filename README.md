@@ -170,14 +170,14 @@ Refer to .env.example for format.
 ## 🧰 Setup & Run Locally
 
 ```
-git clone https://github.com/nikhilshakya07/lead-scoring-backend.git
-cd lead-scoring-backend
+git clone https://github.com/nikhilshakya07/Lead-Scoring-Backend.git
+cd Lead-Scoring-Backend
 npm install
 npm run dev
 
 ```
 
-Server will start at http://localhost:5000
+Server will start at http://localhost:3000
 
 ## 🚀 Deployment
 
